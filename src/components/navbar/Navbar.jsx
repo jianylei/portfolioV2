@@ -10,19 +10,27 @@ export default function Navbar() {
     }
 
     return (
-        <div  className={isScrolled ? "navbar-container scrolled" : "navbar-container"}>
-                <div className="left">
+        <div className={isScrolled ? "navbar-container scrolled" : "navbar-container"}>
+            <div className="left">
                 <h2>Jian Lei</h2>
                 <h3>Web Developer</h3>
-                </div>
+            </div>
 
-                <div className="right">
+            <div className="right">
                 <span>Home</span>
-                <span>About</span> 
-                <span>Projects</span> 
-                <span>Contact</span> 
+                <span>About</span>
+                <span>Projects</span>
+                <span>Contact</span>
+            </div>
+            <div className="burger-menu">
+                <i className="fas fa-bars"></i>
+                <div className="options">
+                    <span>Home</span>
+                    <span>About</span>
+                    <span>Projects</span>
+                    <span>Contact</span>
                 </div>
-                
+            </div>
         </div>
     )
 }

@@ -11,13 +11,15 @@
     transition: all 1s ease;
 }
 .navbar-container .right,
-.navbar-container .left{
+.navbar-container .left,
+.burger-menu{
     margin: 0 50px;
     background-color: transparent;
     transition: all 1s ease;
 }
 .navbar-container .left>h3,
-.navbar-container .left>h2{
+.navbar-container .left>h2,
+.navbar-container .right>span{
     color: var(--black);
     background-color: transparent;
     cursor: pointer;
@@ -25,10 +27,6 @@
 }
 .navbar-container .right>span{
     margin-left: 30px;
-    color: var(--black);
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 1s ease;
 }
 .navbar-container.scrolled{
     background-color: var(--black);
@@ -53,4 +51,76 @@
     display: flex;
     gap: 15px;
     align-items: center;
+}
+
+/* Menu dropdown */
+.burger-menu{
+    transform: scale(1.5);
+    display: none;
+}
+.burger-menu .fas{
+    background: transparent;
+    color: var(--black);
+    transition: color 1s ease;
+}
+.scrolled .burger-menu .fas{
+    color: var(--white);
+}
+.burger-menu .options{
+    display: none;
+}
+.burger-menu .options span{
+    background: var(--black);
+    cursor: pointer;
+    padding: 10px;
+    color: var(--white);
+    font-size: 12px;
+}
+.burger-menu:hover .options{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    left: -88px;
+    position: absolute;
+    background: var(--black);
+    text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width: 810px) {
+    .right{
+      display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .navbar-container .right,
+    .navbar-container .left,
+    .burger-menu{
+        margin: 0 30px;
+    }
+    .navbar-container{
+        height: 60px;
+    }
+}
+@media (max-width: 480px) {
+    .navbar-container .left>h3{
+        text-indent:-9999px
+    }
+}
+@media (max-width: 370px) {
+    .navbar-container .left>h2{
+        font-size: 20px;
+    }
+    .burger-menu{
+        transform: scale(1.2);
+    }
+    .navbar-container .right,
+    .navbar-container .left,
+    .burger-menu{
+        margin: 0 20px;
+    }
+    .navbar-container{
+        height: 50px;
+    }
 }

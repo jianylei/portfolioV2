@@ -9,11 +9,21 @@
   background-color: var(--white);
 }
 .dev-text-container{
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 .dev-text{
-  font-size: 16vw;
+  font-size: 18vw;
   font-weight: 600;
   color: white;
+}
+@media (max-width: 900px) {
+  .dev-text-container{
+    margin-top: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .dev-text-container{
+    margin-top: 60px;
+  }
 }
