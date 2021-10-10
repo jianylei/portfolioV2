@@ -1,0 +1,57 @@
+.dev-text-container{
+    margin-top: 20px;
+    text-align: center;
+  }
+.dev-text{
+    font-size: 18vw;
+    font-weight: 600;
+    color: white;
+}
+@media (max-width: 900px) {
+    .dev-text-container{
+      margin-top: 50px;
+    }
+}
+@media (max-width: 480px) {
+    .dev-text-container{
+      margin-top: 60px;
+    }
+}
+
+/* Main */
+.main-body span{
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+}
+
+.main-body{
+      width: 40%;
+      padding: 0 150px;
+}
+
+.main-body h4{
+    color: var(--black-alpha-50);
+    font-weight: 500;
+    font-size: 20px;
+}
+.main-body h2{
+    font-size: 55px;
+}
+.main-body p,
+.main-body span{
+    color: var(--black-alpha-70);
+}
+.main-body p{
+    margin: 25px 0;
+}
+.main-body span h3{
+    font-size: 16px;
+    color: var(--black);
+    cursor: pointer;
+}
+.main-body .social-links a i{
+    color: black;
+    transform: scale(1.5);
+    margin: 5px 10px 20px;
+}
