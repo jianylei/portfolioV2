@@ -7,6 +7,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <Main/>
+
+      
+
+
+
+
     </div>
   );
 }

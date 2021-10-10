@@ -17,18 +17,18 @@ export default function Navbar() {
             </div>
 
             <div className="right">
-                <span>Home</span>
-                <span>About</span>
-                <span>Projects</span>
-                <span>Contact</span>
+                <a href="#top-link">Home</a>
+                <a href="#projects-container">Projects</a>
+                <a href="#about-container">About</a>
+                <a href="#contact-container">Contact</a>
             </div>
             <div className="burger-menu">
                 <i className="fas fa-bars"></i>
                 <div className="options">
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Projects</span>
-                    <span>Contact</span>
+                    <a href="#top-link">Home</a>
+                    <a href="#projects-container">Projects</a>
+                    <a href="#about-container">About</a>
+                    <a href="#contact-container">Contact</a>
                 </div>
             </div>
         </div>
