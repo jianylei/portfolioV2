@@ -17,8 +17,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    color: white;
-    transition: .3s ease;
     overflow: scroll;
 }
 .grid .project-detail{
