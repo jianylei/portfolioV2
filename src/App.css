@@ -2,7 +2,7 @@
   --black: #1d1d1d;
   --black-alpha-50: rgba(0, 0, 0, 0.5);
   --black-alpha-70: rgba(0, 0, 0, 0.7);
-  --white: rgb(241, 241, 241);
+  --white: #fff
 }
 *{
   margin: 0;

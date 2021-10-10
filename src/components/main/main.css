@@ -4,24 +4,16 @@
 }
 
 .dev-text-container{
-    margin-top: 20px;
     text-align: center;
   }
 .dev-text{
     font-size: 18vw;
     font-weight: 600;
     color: white;
+    text-shadow: 0 0 25px #e7e7e775;
 }
-@media (max-width: 900px) {
-    .dev-text-container{
-      margin-top: 50px;
-    }
-}
-@media (max-width: 480px) {
-    .dev-text-container{
-      margin-top: 60px;
-    }
-}
+
+
 
 /* Main */
 .main-body span{
@@ -48,7 +40,7 @@
     color: var(--black-alpha-70);
 }
 .main-body p{
-    margin: 25px 0;
+    margin: 25px 0 30px;
 }
 .main-body span h3{
     font-size: 16px;
@@ -58,33 +50,57 @@
 .main-body .social-links a i{
     color: black;
     transform: scale(1.5);
-    margin: 5px 10px 20px;
+    margin: 30px 25px 0 5px;
 }
 @media (max-width: 1300px) {
     .main-body{
         padding: 0 100px;
         width: 60%;
     }
+    .dev-text-container{
+        margin-top: 12px;
+    }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .main-body{
         width: 80%;
         padding: 0 20px;
         margin: auto;
     }
+    .dev-text-container{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 950px) {
+    .dev-text-container{
+      margin-top: 40px;
+    }
 }
 @media (max-width: 810px) {
+    .main-body h4{
+        text-align: center;
+        margin-top: 85px;
+    }
+    .main-body h2{
+        text-align: center;
+    }
+    .main-body p {
+        text-align: center;
+    }
     .main-body .social-links{
         text-align: center;
     }
     .main-body span{
         justify-content: center;
     }
-    .main-body .social-links a i{
-        margin: 5px 20px 25px;
+    .dev-text-container{
+        display: none;
     }
 }
-@media (max-width: 455px) {
+@media (max-width: 540px) {
+    .main-body h4{
+        font-size: 18px;
+    }
     .main-body h2{
         font-size: 36px;
     }
@@ -93,12 +109,17 @@
         align-items: center;
         gap: 0;
     }
-    .main-body .social-links a i{
-        margin-bottom: 30px;
+}
+@media (max-width: 480px) {
+    .dev-text-container{
+      margin-top: 40px;
     }
 }
 @media (max-width: 320px) {
     .main-body h2{
         font-size: 32px;
     }
+    .dev-text-container{
+        margin-top: 45px;
+      }
 }
