@@ -1,7 +1,7 @@
 .projects-container{
     width: 80%;
     margin: auto;
-    padding: 140px 0 0;
+    padding: 120px 0 0;
 }
 .grid-container{
     display: grid;
@@ -147,6 +147,7 @@
     }
     .grid-container{
         gap: 0;
+        margin-top: 3rem;
     }
     .project-detail p,
     .hidden-detail legend{
@@ -174,7 +175,7 @@
     .grid-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
     .grid{
         height: 45rem;
@@ -198,6 +199,11 @@
     }
     ul{
         display: block;
+    }
+}
+@media (max-width: 810px) {
+    .projects-container{
+        padding: 20px 0 0;
     }
 }
 @media (max-width: 730px) {
@@ -267,6 +273,9 @@
     .project-detail a,
     .hidden-detail li{
         font-size: 10px;
+    }
+    .grid .project-detail h3{
+        font-size: 30px !important;
     }
     .grid:hover .project-detail h3{
         font-size: 18px !important;
