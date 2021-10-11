@@ -7,11 +7,24 @@ const skillsList = [
             },{
                 name: "JavaScript"
             },{
-                name: "HTML, CSS"
-            },{
                 name: "SQL"
             },{
                 name: "Java*"
+            }
+        ]
+    },{
+        type: "Web Dev",
+        skill: [
+            {
+                name: "React"
+            },{
+                name: "Angular*"
+            },{
+                name: "NodeJs"
+            },{
+                name: "ExpressJs"
+            },{
+                name: "HTML, CSS"
             }
         ]
     },{
@@ -26,18 +39,16 @@ const skillsList = [
             }
         ]
     },{
-        type: "Tools",
+        type: "Others",
         skill: [
             {
-                name: "React"
+                name: "Git"
             },{
-                name: "Angular*"
+                name: "Unix"
             },{
-                name: "NodeJs"
+                name: "IBM CL*"
             },{
-                name: "ExpressJs"
-            },{
-                name: "Git, Unix"
+                name: "Wordpress*"
             }
         ]
     }
