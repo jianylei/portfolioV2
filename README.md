@@ -9,6 +9,8 @@
 Minimalistic portfolio to showcase projects.
 
 ## Tech
-React, JavaScript. HTML, CSS
+React, JavaScript, HTML, CSS
 
+## Todos
+<li> Mobile optimization: change hover to onClick
 
