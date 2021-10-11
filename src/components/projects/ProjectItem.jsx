@@ -9,7 +9,7 @@ export default function ProjectItem({project}) {
         if(project.live){
             return(
                 <>
-                <a className="project-link" href={project.live} target="_blank">LIVE</a>
+                <a className="project-link" href={project.live} rel="noopener noreferrer" target="_blank">LIVE</a>
                 <span> | </span> 
                 </>
             )
@@ -21,7 +21,7 @@ export default function ProjectItem({project}) {
                                         color:`${project.color}`}}>
             <div className="project-detail">
                 {checkLive()}
-                <a className="project-link" href={project.source} target="_blank">SOURCE</a>
+                <a className="project-link" href={project.source} rel="noopener noreferrer" target="_blank">SOURCE</a>
                 <h3>{project.name}</h3>
                 <div className="hidden-detail">
                     <p>{project.description}</p>
