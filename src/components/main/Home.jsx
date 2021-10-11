@@ -6,7 +6,8 @@ export default function Home() {
                 <h4>JIAN LEI</h4>
                 <h2>Web Developer</h2>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium harum commodi. Nulla unde quaerat consequuntur accusantium molestiae laudantium similique pariatur ullam quas tempora. Magnam, maxime exercitationem! Veniam, earum.
+                    I'M A WEB DEVELOPER & PROGRAMMER LIVING IN TORONTO, ONTARIO. I MAKE WEB APPLICATIONS,
+                    USUALLY WITH REACT AND NODEJS.
                 </p>
                 
                 <span>
