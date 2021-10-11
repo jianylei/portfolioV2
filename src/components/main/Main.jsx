@@ -1,8 +1,8 @@
-import About from "./About"
-import Contact from "./Contact"
+import About from "../about/About"
+import Contact from "../contact/Contact"
 import Home from "./Home"
 import "./main.css"
-import Projects from "./Projects"
+import Projects from "../projects/Projects"
 
 export default function Main() {
     return (
