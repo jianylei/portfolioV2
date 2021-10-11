@@ -4,7 +4,7 @@
     padding: 120px 0 0;
 }
 .about-text{
-    margin: 4rem;
+    margin: 4rem 0;
 }
 /* Skills */
 .skills-grid-container{
@@ -16,6 +16,7 @@
 @media (max-width: 1400px) {
     .skills-grid-container{
         grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 }
 @media (max-width: 1200px) {
@@ -30,5 +31,6 @@
     }
     .skills-grid-container{
         grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
     }
 }
