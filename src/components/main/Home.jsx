@@ -6,14 +6,16 @@ export default function Home() {
                 <h4>JIAN LEI</h4>
                 <h2>Web Developer</h2>
                 <p>
-                    I'M A WEB DEVELOPER & PROGRAMMER LIVING IN TORONTO, ONTARIO. I MAKE WEB APPLICATIONS,
-                    USUALLY WITH REACT AND NODEJS.
+                    I'm a Web Developer & Programmer living in Toronto, Ontario. I make web applications, 
+                    usually with React and NodeJs.
                 </p>
                 
                 <span>
-                    <h3>View Projects</h3> or
-                    <h3>Read About Me</h3> or
-                    <h3>Say Hi!</h3>
+                    <a href="#projects-container"><h3>View Projects</h3></a>
+                     or
+                    <a href="#about-container"><h3>Read About Me</h3></a>
+                     or
+                    <a href="#contact-container"><h3>Say Hi!</h3></a>
                 </span>
                 <div className="social-links">
                 <a href="mailto:jianyonglei@gmail.com"><i className="fas fa-envelope-square"></i></a>

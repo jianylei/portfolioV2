@@ -39,9 +39,7 @@ const skillsList = [
             },{
                 name: "Bootstrap"
             },{
-                name: "Git"
-            },{
-                name: "Unix"
+                name: "Git, Unix"
             }
         ]
     }
