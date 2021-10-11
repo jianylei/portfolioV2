@@ -3,11 +3,11 @@ const skillsList = [
         type: "Languages",
         skill: [
             {
-                name: "C++"
+                name: "C++, OOP"
             },{
                 name: "JavaScript"
             },{
-                name: "HTML/CSS"
+                name: "HTML, CSS"
             },{
                 name: "SQL"
             },{
@@ -36,8 +36,6 @@ const skillsList = [
                 name: "NodeJs"
             },{
                 name: "ExpressJs"
-            },{
-                name: "Bootstrap"
             },{
                 name: "Git, Unix"
             }
