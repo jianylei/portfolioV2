@@ -266,13 +266,13 @@
         width: 95%;
     }
     .project-detail p,
-    .hidden-detail legend{
+    .hidden-detail legend,
+    .project-detail a{
         line-height: 1.5rem;
         font-size: 14px;
     }
-    .project-detail a,
     .hidden-detail li{
-        font-size: 10px;
+        font-size: 12px;
     }
     .grid .project-detail h3{
         font-size: 30px !important;
