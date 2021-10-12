@@ -11,7 +11,7 @@ export default function Contact() {
                         <input type="text" placeholder="Email" name="email" className="input-control" required/>
                         <input type="text" placeholder="Subject" name="subject" className="input-control" required/>
                         <textarea placeholder="Message" name="message" className="input-control" required></textarea>
-                        <button className="btn" type="submit">send message</button>
+                        <button className="btn" type="submit">SEND MESSAGE</button>
                   </form>
               </div>
         </div>
