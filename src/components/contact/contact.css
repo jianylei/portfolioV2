@@ -39,16 +39,7 @@
     color: var(--white);
 } 
 
-/* Input hover */
-.contact-form form input:hover,
-.contact-form form textarea:hover{
-    box-shadow: 0 0 5pt 1px var(--gray);
-}
-.contact-form form input:focus,
-.contact-form form textarea:focus{
-    box-shadow: 0 0 5pt 1px var(--gray);
-}
-
+/* Responsiveness */
 @media (max-width: 1000px) {
     .contact-form form input,
     .contact-form form textarea{
