@@ -26,7 +26,7 @@
 .main-body .social-links a i{
   color: black;
   transform: scale(1.5);
-  margin: 30px 25px 0 5px;
+  margin: 30px 15px 0;
 }
 @media (max-width: 1300px) {
   .main-body{
