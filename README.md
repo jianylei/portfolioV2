@@ -29,8 +29,3 @@ React, JavaScript, HTML, CSS
   <img src="demo/mobile-home.png" height="400px">
   <img src="demo/mobile-projects.png" height="400px">
 </p>
-  
-
-## Todos
-<li> Mobile optimization: change hover to onClick
-
