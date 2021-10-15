@@ -11,6 +11,26 @@ Minimalistic portfolio to showcase projects.
 ## Tech
 React, JavaScript, HTML, CSS
 
+## Screenshots
+### Home
+<img src="demo/home.png">
+
+### Projects
+<img src="demo/project.png">
+
+### About
+<img src="demo/about.png">
+
+### Contact
+  <img src="demo/contact.png">
+
+### Mobile
+<p>
+  <img src="demo/mobile-home.png" height="400px">
+  <img src="demo/mobile-projects.png" height="400px">
+</p>
+  
+
 ## Todos
 <li> Mobile optimization: change hover to onClick
 
