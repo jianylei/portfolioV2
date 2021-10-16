@@ -11,7 +11,7 @@ const skillsList = [
             },{
                 name: "Java*"
             },{
-                name: "TypeScript*"
+                name: "Python*"
             }
         ]
     },{
