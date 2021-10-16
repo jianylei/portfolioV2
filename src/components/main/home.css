@@ -1,15 +1,14 @@
 /* Main */
+.main-body{
+  width: 80%;
+  padding: 0 150px;
+  margin: auto;
+  margin-top: 25px;
+}
 .main-body span{
     display: flex;
     align-items: baseline;
     gap: 10px;
-}
-
-.main-body{
-    width: 80%;
-    padding: 0 150px;
-    margin: auto;
-    margin-top: 25px;
 }
 .main-body span{
   color: var(--gray);
@@ -28,6 +27,11 @@
   transform: scale(1.5);
   margin: 30px 15px 0;
 }
+.main-body .social-links a .fas.fa-download{
+  transform: scale(1.3);
+}
+
+/* Responsiveness */
 @media (max-width: 1300px) {
   .main-body{
       padding: 0 100px;
@@ -45,7 +49,6 @@
     width: 65%;
   }
 }
-
 @media (max-width: 810px) {
   .main-body .social-links{
       text-align: center;
