@@ -1,6 +1,6 @@
 const skillsList = [
     {
-        type: "Languages",
+        type: "Language",
         skill: [
             {
                 name: "C++, OOP"
@@ -28,7 +28,7 @@ const skillsList = [
             }
         ]
     },{
-        type: "Databases",
+        type: "Database",
         skill: [
             {
                 name: "Oracle PLSQL"
@@ -39,7 +39,7 @@ const skillsList = [
             }
         ]
     },{
-        type: "Others",
+        type: "Other",
         skill: [
             {
                 name: "Git"
