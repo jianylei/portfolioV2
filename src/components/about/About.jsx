@@ -19,7 +19,7 @@ export default function About() {
                 programming with C++, along with full stack web development
                 using Node.js, Express.js, React, and MongoDB. I have also
                 gained a strong fundamental understanding of relational and non-relational
-                databases - from designment and creating a schema - to
+                databases - from designing and creating a schema - to
                 incorporating the database within an application, and then to interact
                 with the data using SQL.
                 <br /> <br />

@@ -10,6 +10,8 @@ const skillsList = [
                 name: "SQL"
             },{
                 name: "Java*"
+            },{
+                name: "TypeScript*"
             }
         ]
     },{
