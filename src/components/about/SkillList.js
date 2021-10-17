@@ -48,9 +48,9 @@ const skillsList = [
             },{
                 name: "Unix"
             },{
-                name: "IBM CL*"
+                name: "UML"
             },{
-                name: "Wordpress*"
+                name: "IBM CL*"
             }
         ]
     }
