@@ -23,7 +23,7 @@ export default function About() {
                 incorporating the database within an application, and then to interact
                 with the data using SQL.
                 <br /> <br />
-                I have a curious mind and enojoy work that can challenge
+                I have a curious mind and enjoy work that can challenge
                 me to learn something new, whether it be a new language
                 or technology. I am always on the lookout for exciting
                 projects to work on!
