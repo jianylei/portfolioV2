@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="social-links">
                     <a href="mailto:jianyonglei@gmail.com"><i className="fas fa-envelope-square"></i></a>
                     <a href="https://github.com/jianylei" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/jianylei/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/jianylei-dev/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
                     <a href={cv} download="jianlei_resume" target="_blank" rel="noopener noreferrer" class="btn"><i class="fas fa-download"></i></a>
                 </div>
             </div>
