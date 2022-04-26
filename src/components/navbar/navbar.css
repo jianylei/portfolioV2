@@ -87,7 +87,7 @@
 }
 
 /* Responsiveness */
-@media (max-width: 810px) {
+@media (max-width: 925px) {
     .right{
       display: none;
     }

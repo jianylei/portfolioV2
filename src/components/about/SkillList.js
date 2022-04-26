@@ -3,13 +3,13 @@ const skillsList = [
         type: "Language",
         skill: [
             {
-                name: "C++, OOP"
+                name: "C++ (OOP)"
             },{
                 name: "JavaScript"
             },{
-                name: "SQL"
+                name: "Java"
             },{
-                name: "Java*"
+                name: "SQL + NoSQL"
             },{
                 name: "Python*"
             }
@@ -20,13 +20,13 @@ const skillsList = [
             {
                 name: "React"
             },{
-                name: "Angular*"
-            },{
                 name: "NodeJs"
             },{
                 name: "ExpressJs"
             },{
-                name: "HTML, CSS"
+                name: "HTML + CSS"
+            },{
+                name: "Angular*"
             }
         ]
     },{
@@ -46,11 +46,11 @@ const skillsList = [
             {
                 name: "Git"
             },{
-                name: "Unix"
+                name: "Azure Devops"
             },{
-                name: "UML"
+                name: "Jira Confluence"
             },{
-                name: "IBM CL*"
+                name: "JUnit + Mockito"
             }
         ]
     }
