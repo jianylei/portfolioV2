@@ -32,7 +32,7 @@
     margin: auto;
     font-size: 1rem;
     font-weight: 500;
-    border: 3px solid var(--black);
+    border: 2.5px solid var(--black);
     transition: 0.3s ease;
     color: var(--black);
 } 
