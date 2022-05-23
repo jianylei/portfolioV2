@@ -18,7 +18,7 @@ export default function Navbar() {
 
             <div className="right">
                 <a href="#top-link">Home</a>
-                <a href="#projects-container">Projects</a>
+                <a href="#projects-container">Experience</a>
                 <a href="#about-container">About</a>
                 <a href="#contact-container">Contact</a>
             </div>
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <i className="fas fa-bars"></i>
                 <div className="options">
                     <a href="#top-link">Home</a>
-                    <a href="#projects-container">Projects</a>
+                    <a href="#projects-container">Experience</a>
                     <a href="#about-container">About</a>
                     <a href="#contact-container">Contact</a>
                 </div>

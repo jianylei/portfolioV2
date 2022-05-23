@@ -50,7 +50,7 @@ const skillsList = [
             },{
                 name: "Jira Confluence"
             },{
-                name: "JUnit + Mockito"
+                name: "Unit Testing"
             }
         ]
     }

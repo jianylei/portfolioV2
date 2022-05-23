@@ -8,8 +8,8 @@ export default function Projects() {
     })
     return (
         <div className="projects-container" id="projects-container">
-            <h4>Personal and Academic</h4>
-            <h2>Projects</h2>
+            <h4>Work and Projects</h4>
+            <h2>Experience</h2>
             <div className="grid-container">
                 {list}
             </div>

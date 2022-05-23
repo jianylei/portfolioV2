@@ -1,5 +1,36 @@
 const projectList = [
     {
+        name: "App Developer (Co-op)",
+        responsibilities: [
+            {
+                task: "- Debugged, improved, and maintained Java code"
+            },{
+                task: "- Improved and mantained Azure Devops CI/CD pipelines"
+            },{
+                task: "- Constructed unit test for Java Spring Boot application"
+            },{
+                task: "- Worked in an Agile environment and attended daily SCRUM meetings"
+           }
+        ],
+        image: "/images/cibc.png",
+        company: "CIBC Capital Markets",
+        date: "Jan 2022 - Apr 2022",
+        source: "https://cibccm.com/en/l",
+        color: "white",
+        skill: [{
+            name: "Java"
+        },{
+            name: "Azure DevOps"
+        },{
+            name: "Spring Boot"
+        },{
+            name: "Red Hat OpenShift"
+        },{
+            name: "Jira Confluence"
+        },{
+            name: "Unit Testing"
+        }]
+    },{
         name: "HR Portal",
         description : `HR Portal is a CRUD app designed to help businesses manage their employees. The
             back-end consist of a Nodejs server using Expressjs to render handlebar views. The server also handles authentication, authorization, validation and
@@ -78,23 +109,6 @@ const projectList = [
             name: "CSS"
         },{
             name: "Bootstrap"
-        }]
-    },{
-        name: "Resume Builder",
-        description : `Front-end application to help users create professional resumes. Utilizing React states and hooks, the app will give user a live preview
-            of their resume as they input their information.`,
-        image: "/images/resumebuilder1.png",
-        live: "https://jianylei.github.io/resume-builder/",
-        source: "https://github.com/jianylei/resume-builder",
-        color: "white",
-        skill: [{
-            name: "JavaScript"
-        },{
-            name: "HTML"
-        },{
-            name: "CSS"
-        },{
-            name: "React"
         }]
     },{
         name: "Assembly Line",

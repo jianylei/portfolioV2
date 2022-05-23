@@ -11,7 +11,7 @@ export default function Home() {
                 </p>
                 
                 <span>
-                    <a href="#projects-container"><h3>View Projects</h3></a>
+                    <a href="#projects-container"><h3>View Work</h3></a>
                      or
                     <a href="#about-container"><h3>Read About Me</h3></a>
                      or
@@ -21,7 +21,6 @@ export default function Home() {
                     <a href="mailto:jianyonglei@gmail.com"><i className="fas fa-envelope-square"></i></a>
                     <a href="https://github.com/jianylei" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/jianylei-dev/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
-                    <a href={cv} download="jianlei_resume" target="_blank" rel="noopener noreferrer" class="btn"><i class="fas fa-download"></i></a>
                 </div>
             </div>
     )

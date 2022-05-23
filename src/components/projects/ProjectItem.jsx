@@ -16,17 +16,54 @@ export default function ProjectItem({project}) {
         }
     }
 
+    const checkSource = () =>{
+        if(project.source && !project.company){
+            return(
+                <>
+                <a className="project-link" href={project.source} rel="noopener noreferrer" target="_blank">SOURCE</a>
+                </>
+            )
+        }
+        return(
+            <>
+                <a className="project-link"  href={project.source} rel="noopener noreferrer" target="_blank">
+                    <span> {project.company} </span> {project.date}
+                </a>
+            </>
+        )
+    }
+
+    const checkDesc = () =>{
+        if(project.description){
+            return(
+                <p>{project.description}</p>
+            )
+        }
+
+        const responsibility = project.responsibilities.map((res, index) => {
+            return (
+                <li key={index}>{res.task}</li>
+            )
+        })
+
+        return(
+            <ul className="responsibilities">
+                {responsibility}
+            </ul>
+        )
+    }
+
     return (
         <div className="grid" style={{backgroundImage: `url(${project.image})`, 
                                         color:`${project.color}`}}>
             <div className="project-detail">
                 {checkLive()}
-                <a className="project-link" href={project.source} rel="noopener noreferrer" target="_blank">SOURCE</a>
+                {checkSource()}
                 <h3>{project.name}</h3>
                 <div className="hidden-detail">
-                    <p>{project.description}</p>
+                    {checkDesc()}
                     <legend>Technologies used:</legend>
-                    <ul>
+                    <ul className="skills">
                         {skills}
                     </ul>
                 </div>
