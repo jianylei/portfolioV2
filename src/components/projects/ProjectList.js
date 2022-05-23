@@ -24,7 +24,9 @@ const projectList = [
         },{
             name: "Spring Boot"
         },{
-            name: "Red Hat OpenShift"
+            name: "Kubernetes"
+        },{
+            name: "OpenShift"
         },{
             name: "Jira Confluence"
         },{
