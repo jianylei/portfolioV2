@@ -1,5 +1,4 @@
 import "./home.css"
-import cv from "../../cv/cv.pdf"
 export default function Home() {
     return (
             <div className="main-body">
