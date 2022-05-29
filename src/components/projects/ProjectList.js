@@ -3,13 +3,13 @@ const projectList = [
         name: "App Developer (Co-op)",
         responsibilities: [
             {
-                task: "- Debugged, improved, and maintained Java code"
+                task: "• Debugged, improved, and maintained Java code"
             },{
-                task: "- Improved and mantained Azure Devops CI/CD pipelines"
+                task: "• Improved and mantained Azure Devops CI/CD pipelines"
             },{
-                task: "- Constructed unit test for Java Spring Boot application"
+                task: "• Constructed unit test for Java Spring Boot application"
             },{
-                task: "- Worked in an Agile environment and attended daily SCRUM meetings"
+                task: "• Worked in an Agile environment and attended daily SCRUM meetings"
            }
         ],
         image: "/images/cibc.png",
